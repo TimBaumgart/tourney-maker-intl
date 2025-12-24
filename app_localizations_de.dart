@@ -4852,4 +4852,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get media_editAssignments => 'Zuordnungen bearbeiten';
+
+  @override
+  String get test => 'TestX';
 }

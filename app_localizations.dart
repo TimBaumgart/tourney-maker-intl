@@ -6783,6 +6783,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Edit assignments'**
   String get media_editAssignments;
+
+  /// No description provided for @test.
+  ///
+  /// In en, this message translates to:
+  /// **'TestX'**
+  String get test;
 }
 
 class _AppLocalizationsDelegate

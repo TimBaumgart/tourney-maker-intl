@@ -1104,5 +1104,6 @@
   "setupOrganization_addUserMailTemplate": "## Welcome to {appTitle}!\n\nHello,\n\nYou have been added to the organization **{organization}**. Click the following link to log in to your account:\n\n%magicLink%\n\n---\n\n*If you did not expect this email, you can safely ignore it. This link will expire for security reasons.*",
   "home_goToOrganization": "Go to tournament overview",
   "media_assignments": "Assignments",
-  "media_editAssignments": "Edit assignments"
+  "media_editAssignments": "Edit assignments",
+  "test": "TestX"
 }
