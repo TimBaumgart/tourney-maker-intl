@@ -1,8 +1,4 @@
 {
-  "de": [
-    "test"
-  ],
-
   "fr": [
     "fcm_personalTeamGameAdvancement_title",
     "fcm_personalTeamGameAdvancement_body",
@@ -107,7 +103,6 @@
     "setupOrganization_addUserMailTemplate",
     "home_goToOrganization",
     "media_assignments",
-    "media_editAssignments",
-    "test"
+    "media_editAssignments"
   ]
 }

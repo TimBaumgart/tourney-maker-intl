@@ -4815,7 +4815,4 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get media_editAssignments => 'Edit assignments';
-
-  @override
-  String get test => 'TestX';
 }
