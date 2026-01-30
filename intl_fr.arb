@@ -1037,7 +1037,7 @@
   "game_status_scheduledStartPassed": "Partie prévue il y a {durationAgo}",
   "game_status_running": "Partie en cours",
   "game_status_finished": "Partie terminée",
-  "media": "{howMany, plural, one{Média}, other{Médias}}",
+  "media": "{howMany, plural, one{Média} other{Médias}}",
   "game_scoring_serve": "Servir",
   "mediaUpload_uploadProgress": "{totalFiles, plural, one{{filesTransferred}/{totalFiles} fichier transféré} other{{filesTransferred}/{totalFiles} fichiers transférés}}",
   "mediaUpload_processingProgress": "{totalFiles, plural, one{{filesProcessed}/{totalFiles} fichier traité} other{{filesProcessed}/{totalFiles} fichiers traités}}",

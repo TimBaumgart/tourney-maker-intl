@@ -10,16 +10,16 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String fcm_personalTeamGameAdvancement_title(Object team) {
-    return '$team: New game!';
+    return '$team : Nouvelle partie !';
   }
 
   @override
   String get fcm_personalTeamGameAdvancement_body =>
-      'A new game has been assigned to your team. Tap here to view the game.';
+      'Une nouvelle partie a été affectée à votre équipe. Touchez ici pour la voir.';
 
   @override
   String fcm_personalTeamGameFinishedChange_title(Object team) {
-    return '$team: Game finished!';
+    return '$team : Partie terminée !';
   }
 
   @override
@@ -28,26 +28,26 @@ class AppLocalizationsFr extends AppLocalizations {
     Object score1,
     Object score2,
   ) {
-    return '$score1:$score2 vs $opponent';
+    return '$score1-$score2 contre $opponent';
   }
 
   @override
   String fcm_personalTeamGameChange_title(Object team) {
-    return '$team: Game updated!';
+    return '$team : Partie actualisée !';
   }
 
   @override
   String get fcm_personalTeamGameChange_body =>
-      'There has been a change to one of your games. Tap here to view the game.';
+      'Il y a du changement sur l\'une de vos parties. Touchez ici pour les voir.';
 
   @override
   String fcm_personalTeamGameReminder_title(Object team) {
-    return '$team: Get ready!';
+    return '$team : Préparez-vous !';
   }
 
   @override
   String fcm_personalTeamGameReminder_body(Object timeInMinutes) {
-    return 'Your game starts in $timeInMinutes minutes.';
+    return 'Votre partie démarre dans $timeInMinutes minutes.';
   }
 
   @override
@@ -55,35 +55,35 @@ class AppLocalizationsFr extends AppLocalizations {
     Object field,
     Object timeInMinutes,
   ) {
-    return 'Your game starts in $timeInMinutes minutes on field $field.';
+    return 'Votre partie démarre dans $timeInMinutes minutes sur le terrain $field.';
   }
 
   @override
   String fcm_personalTeamGameStartTimeReached_title(Object team) {
-    return '$team: Kickoff!';
+    return '$team : Engagement !';
   }
 
   @override
   String get fcm_personalTeamGameStartTimeReached_body =>
-      'Your game just started.';
+      'Votre partie vient de commencer.';
 
   @override
   String fcm_personalTeamGameStartTimeReached_body_withField(Object field) {
-    return 'Your game just started on field $field.';
+    return 'Votre partie vient de commencer sur le terrain $field.';
   }
 
   @override
   String fcm_personalTeamGameEndTimeReached_title(Object team) {
-    return '$team: Time is up!';
+    return '$team : Temps écoulé !';
   }
 
   @override
   String get fcm_personalTeamGameEndTimeReached_body =>
-      'The playing time of your game just ended.';
+      'Le temps de votre partie est écoulé.';
 
   @override
   String fcm_personalTeamGameScoreChange_title(Object team) {
-    return '$team: New score!';
+    return '$team : Nouveau point !';
   }
 
   @override
@@ -92,22 +92,22 @@ class AppLocalizationsFr extends AppLocalizations {
     Object score1,
     Object score2,
   ) {
-    return '$score1:$score2 vs $opponent';
+    return '$score1-$score2 contre $opponent';
   }
 
   @override
   String fcm_postingCreated_body(Object tournament) {
-    return 'A new post was published in the tournament $tournament. Tap here to view the post.';
+    return 'Un nouveau message a été publié dans le tournoi $tournament. Touchez ici pour le voir.';
   }
 
   @override
   String fcm_personalTeamFieldAssignment_title(Object team) {
-    return '$team: Field assigned!';
+    return '$team : Terrain affecté !';
   }
 
   @override
   String fcm_personalTeamFieldAssignment_body(Object field) {
-    return 'Field $field has been assigned to your game. Tap here to view the game.';
+    return 'Votre partie se déroulera sur le terrain $field. Touchez ici pour voir la partie.';
   }
 
   @override
@@ -1436,7 +1436,7 @@ class AppLocalizationsFr extends AppLocalizations {
   String get paste => 'Coller';
 
   @override
-  String get cut => 'Cut';
+  String get cut => 'Couper';
 
   @override
   String export_notes_explanation(
@@ -3113,7 +3113,8 @@ class AppLocalizationsFr extends AppLocalizations {
   }
 
   @override
-  String get brackets_editStandingsSwitch => 'Edit standings and pool result';
+  String get brackets_editStandingsSwitch =>
+      'Modifier les classements et le résultat du groupe';
 
   @override
   String get brackets_forcePlaceFollowers => 'Set followers early on';
@@ -3414,7 +3415,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String wizard_sport_missingFeedback(Object url) {
-    return 'Is your sport not included? Let us know [here]($url) and select a similar sport for now.';
+    return 'Votre sport est indisponible ? Prévenez-nous [ici]($url) et choisissez un sport similaire en attendant.';
   }
 
   @override
@@ -3664,27 +3665,30 @@ class AppLocalizationsFr extends AppLocalizations {
   }
 
   @override
-  String get setting_autoLivestream_title => 'Automatic livestream assignment';
+  String get setting_autoLivestream_title =>
+      'Affectation automatique de la diffusion';
 
   @override
-  String get setting_autoLivestream_provider => 'Provider';
+  String get setting_autoLivestream_provider => 'Fournisseur';
 
   @override
-  String get setting_autoLivestream_link => 'Link';
+  String get setting_autoLivestream_link => 'Lien';
 
   @override
   String get setting_autoLivestream_linkHint =>
-      'Stream, playlist, channel, etc';
+      'Flux, liste de lecture, chaîne, etc';
 
   @override
-  String get setting_autoLivestream_visibility => 'Promote livestream';
+  String get setting_autoLivestream_visibility =>
+      'Partager la diffusion en direct';
 
   @override
   String get setting_autoLivestream_visibilityDescription =>
-      'If enabled, it will be indicated in the game view that there is a livestream for this game.';
+      'Activée, la diffusion en direct sera indiquée sur l\'écran de la partie.';
 
   @override
-  String get setting_autoLivestream_activate => 'Activate livestream';
+  String get setting_autoLivestream_activate =>
+      'Activer la diffusion en direct';
 
   @override
   String get livestream_gameInfoNoUrl =>
@@ -3927,7 +3931,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String game_scoring_timeOverDialog_startPeriod(Object label) {
-    return 'Do you want to begin $label?';
+    return 'Voulez-vous démarrer $label ?';
   }
 
   @override
@@ -4127,7 +4131,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get game_scoring_lastPeriodAlreadyRunning =>
-      'Last period is already running';
+      'La dernière période est déjà en cours';
 
   @override
   String get game_scoring_noSegmentsLeft =>
@@ -4414,14 +4418,14 @@ class AppLocalizationsFr extends AppLocalizations {
       'Quelle équipe a l\'offensive au premier point ?';
 
   @override
-  String get game_scoring_firstOffenseQuestion_title => 'Offense/Defense';
+  String get game_scoring_firstOffenseQuestion_title => 'Attaque/Défense';
 
   @override
   String get game_scoring_firstServeQuestion_description =>
-      'Who has the first serve?';
+      'Quelle équipe a été servie la première ?';
 
   @override
-  String get game_scoring_firstServeQuestion_title => 'First serve';
+  String get game_scoring_firstServeQuestion_title => 'Première servie';
 
   @override
   String get game_scoring_jerseyColorQuestion_title => 'Couleur des maillots';
@@ -4556,21 +4560,22 @@ class AppLocalizationsFr extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       howMany,
       locale: localeName,
-      other: 'Media',
+      other: 'Médias',
+      one: 'Média',
     );
     return '$_temp0';
   }
 
   @override
-  String get game_scoring_serve => 'Serve';
+  String get game_scoring_serve => 'Servir';
 
   @override
   String mediaUpload_uploadProgress(Object filesTransferred, num totalFiles) {
     String _temp0 = intl.Intl.pluralLogic(
       totalFiles,
       locale: localeName,
-      other: '$filesTransferred/$totalFiles files transferred',
-      one: '$filesTransferred/$totalFiles file transferred',
+      other: '$filesTransferred/$totalFiles fichiers transférés',
+      one: '$filesTransferred/$totalFiles fichier transféré',
     );
     return '$_temp0';
   }
@@ -4580,8 +4585,8 @@ class AppLocalizationsFr extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       totalFiles,
       locale: localeName,
-      other: '$filesProcessed/$totalFiles files processed',
-      one: '$filesProcessed/$totalFiles file processed',
+      other: '$filesProcessed/$totalFiles fichiers traités',
+      one: '$filesProcessed/$totalFiles fichier traité',
     );
     return '$_temp0';
   }
@@ -4591,185 +4596,186 @@ class AppLocalizationsFr extends AppLocalizations {
     String _temp0 = intl.Intl.pluralLogic(
       howMany,
       locale: localeName,
-      other: 'Are you sure to delete $howMany pictures?',
-      one: 'Are you sure to delete this picture?',
+      other: 'Voulez-vous vraiment supprimer ces $howMany images ?',
+      one: 'Voulez-vous vraiment supprimer cette image ?',
     );
     return '$_temp0';
   }
 
   @override
   String get mediaUpload_waitUntilFinished =>
-      'Please wait until the upload is finished';
+      'Veuillez patienter jusqu\'à la fin du téléchargement';
 
   @override
-  String get mediaUpload_saveToLeaveScreen => 'You can safely exit this screen';
+  String get mediaUpload_saveToLeaveScreen =>
+      'Vous pouvez maintenant quitter cet écran';
 
   @override
-  String get game_scoring_addPhoto => 'Add photo';
+  String get game_scoring_addPhoto => 'Ajouter une photo';
 
   @override
-  String get share => 'Share';
+  String get share => 'Partager';
 
   @override
-  String get media_dateTaken => 'Date taken';
+  String get media_dateTaken => 'Date de prise';
 
   @override
-  String get media_dateUploaded => 'Date uploaded';
+  String get media_dateUploaded => 'Date de téléchargement';
 
   @override
-  String get media_originalResolution => 'Original Resolution';
+  String get media_originalResolution => 'Résolution originale';
 
   @override
-  String get media_resolution => 'Resolution';
+  String get media_resolution => 'Résolution';
 
   @override
-  String get media_share_lowResolution => 'Share with low resolution';
+  String get media_share_lowResolution => 'Partager en basse résolution';
 
   @override
   String media_share_lookAtThisPhoto(Object link) {
-    return 'Look at this photo: $link';
+    return 'Regardez cette photo : $link';
   }
 
   @override
   String media_share_lookAtThisTournamentPhoto(Object link, Object tournament) {
-    return 'Look at this photo from tournament $tournament: $link';
+    return 'Regardez cette photo du tournoi $tournament : $link';
   }
 
   @override
-  String get download => 'Download';
+  String get download => 'Télécharger';
 
   @override
-  String get media_download_success => 'The photo as been downloaded';
+  String get media_download_success => 'La photo a été téléchargée';
 
   @override
-  String get media_unlockHighResolution => 'Unlock High Resolution';
+  String get media_unlockHighResolution => 'Débloquer la haute résolution';
 
   @override
   String get media_resolution_canAccessShareDownload =>
-      'You can view, share, and download all photos from the tournament in original quality.';
+      'Vous pouvez visualier, partager et télécharger toutes les photos du tournoi dans leur qualité originale.';
 
   @override
   String get media_paywall_restricted =>
-      'You can view all tournament photos in low resolution for free. By purchasing a photo, you gain access to the original quality, can share and download it.';
+      'Vous pouvez visualiser gratuitement toutes les photos du tournoi en basse résolution. En achetant la photo, vous pouvez partager et télécharger la version originale.';
 
   @override
   String get media_paywall_restrictedSupportFreeOfChargeApp =>
-      'This helps us to keep developing the app and continue offering it free of charge.';
+      'Vous contribuez au développement de nouvelles fonctionnalités et à la gratuité de l\'application sur les plateformes.';
 
   @override
-  String get media_paywall_singlePhoto => 'Single';
+  String get media_paywall_singlePhoto => 'Seule';
 
   @override
-  String get media_paywall_singlePhotoDescription => 'Only this photo';
+  String get media_paywall_singlePhotoDescription => 'Seulement cette photo';
 
   @override
-  String get media_paywall_photoPackage => 'Photo Package';
+  String get media_paywall_photoPackage => 'Lot de photos';
 
   @override
   String get media_paywall_photoPackageDescription =>
-      'All photos from the tournament';
+      'Toutes les photos du tournoi';
 
   @override
   String get media_paywall_experimentalFeature =>
-      '*This feature is experimental. You can activate the photo package free of charge.';
+      '*Cette fonctionnalité est expérimentale. Vous pouvez activer le lot de photos gratuitement.';
 
   @override
   String get media_addWhileScoringToSeeHere =>
-      'Add media while scoring games to see them here';
+      'Ajouter des médias en marquant les parties pour les voir ici';
 
   @override
-  String get media_noMediaFound => 'No media available';
+  String get media_noMediaFound => 'Aucun média disponible';
 
   @override
-  String get media_addToSeeHere => 'Add media to see them here';
+  String get media_addToSeeHere => 'Ajoutez un média pour le voir ici';
 
   @override
   String media_activatedOrNot(String active) {
     String _temp0 = intl.Intl.selectLogic(active, {
-      'true': 'Media are activated for this tournament',
-      'other': 'Media are deactivated for this tournament',
+      'true': 'Les médias sont activés pour ce tournoi',
+      'other': 'Les médias sont désactivés pour ce tournoi',
     });
     return '$_temp0';
   }
 
   @override
-  String get posting_defineAsThumbnail => 'Set as thumbnail';
+  String get posting_defineAsThumbnail => 'Choisir comme miniature';
 
   @override
   String get media_settingAddPermissionTitle =>
-      'Who is allowed to add media to the gallery at any time?';
+      'Qui a l\'autorisation de partager des médias n\'importe quand ?';
 
   @override
   String get media_settingAddWhileScoringPermissionTitle =>
-      'Who is allowed to add media while scoring games?';
+      'Qui a l\'autorisation de partager des médias pendant les parties ?';
 
   @override
-  String get scoreboardView => 'Scoreboard View';
+  String get scoreboardView => 'Tableau des résultats';
 
   @override
   String media_sourceType(String type) {
     String _temp0 = intl.Intl.selectLogic(type, {
-      'camera': 'Take a photo',
-      'gallery': 'Open gallery',
+      'camera': 'Prendre une photo',
+      'gallery': 'Ouvrir la galerie',
       'other': '$type',
     });
     return '$_temp0';
   }
 
   @override
-  String get media_uploadGuidelines_title => 'Upload Guidelines';
+  String get media_uploadGuidelines_title => 'Guide de partage';
 
   @override
   String get media_uploadGuidelines_content =>
-      '**Before uploading a photo, please respect privacy and personal rights**.\n\nBy continuing, you confirm that:\n- You have permission from every person shown in the photo.\n- The image contains no sensitive data and follows our data-protection guidelines.\n- No children appear in the photo.\n- No one is shown without their consent or in an unauthorized setting.\n\nAdmins may delete photos that violate these rules. If you see an image that appears to breach privacy or data-protection rules, you can easily report it through our in-app reporting tool.';
+      '**Avant de partager une photo, respectez la vie privée d\'autrui**.\n\nEn poursuivant, vous confirmez que :\n- Vous avez la permission de toutes les personnes visibles sur la photo.\n- L\'image respecte nos conditions de protecton des informations sensibles.\n- Aucun enfant n\'apparait sur la photo.\n- Personne n\'est montrée sans son consentement ou dans des conditions illégales.\n\nL\'administration se réserve le droit de supprimer les photos contre-indiquées. Si vous voyez une image enfreignant ces règles, vous pouvez la signaler depuis l\'application.';
 
   @override
-  String get media_report => 'Report photo';
+  String get media_report => 'Signaler une photo';
 
   @override
-  String get mediaReport_confirm => 'Submit report';
+  String get mediaReport_confirm => 'Envoyer le signalement';
 
   @override
   String mediaReport_type(String type) {
     String _temp0 = intl.Intl.selectLogic(type, {
       'personalRights':
-          'It violates personal or privacy rights either of me or a third person',
-      'abuse': 'It is inappropriate or offensive (nudity, violence, ...)',
-      'copyright': 'It violates my copyright',
-      'scope': 'It has nothing to do with the tournament',
+          'Elle viole les droits à la vie privée de moi-même ou d\'autrui',
+      'abuse': 'Elle est inappropriée ou blessante (nuditée, violence, ...)',
+      'copyright': 'Elle viole mon droit à l\'image',
+      'scope': 'Elle est hors du contexte du tournoi',
       'wrongAssignment':
-          'It has been assigned to the wrong team or game, or the assignment is missing',
-      'other': 'Something else',
-      'unknown': 'Unknown reason',
-      'vision': 'Automatic detection of explicit content',
+          'Elle identifie la mauvaise équipe ou partie, ou est non-identifiée',
+      'other': 'Autre chose',
+      'unknown': 'Raison inconnue',
+      'vision': 'Détection automatique de contenu explicite',
     });
     return '$_temp0';
   }
 
   @override
-  String get mediaReport_reason_title => 'Reason';
+  String get mediaReport_reason_title => 'Raison';
 
   @override
   String get mediaReport_reason_description =>
-      'Why do you want to report this photo?';
+      'Pourquoi signalez-vous cette photo ?';
 
   @override
-  String get mediaReport_description_title => 'Description';
+  String get mediaReport_description_title => 'Résumé';
 
   @override
   String get mediaReport_description_description =>
-      'Would you like to add anything else?';
+      'Voulez-vous ajouter autre chose ?';
 
   @override
-  String get mediaReportReview_title => 'This photo has been reported';
+  String get mediaReportReview_title => 'Cette photo a été signalée';
 
   @override
   String mediaReportReview_description(String visible) {
     String _temp0 = intl.Intl.selectLogic(visible, {
       'true':
-          'Since the reason for reporting is not severe or the photo has already been approved, it remains visible. You can reject the report or delete the photo.',
+          'Puisque la raison du signalement est non-critique ou la photo a été approuvée, elle reste visible. Vous pouvez refuser le signalement ou supprimer la photo.',
       'other':
-          'Since the reason for reporting is severe, the photo is no longer visible for users. You can reactivate or delete it.',
+          'Puisque la raison du signalement est critique, cette photo est masquée au public. Vous pouvez la re-publier ou la supprimer.',
     });
     return '$_temp0';
   }
@@ -4777,71 +4783,73 @@ class AppLocalizationsFr extends AppLocalizations {
   @override
   String mediaReportView_reject(String visible) {
     String _temp0 = intl.Intl.selectLogic(visible, {
-      'true': 'Reject report & keep photo',
-      'other': 'Reject report & reactivate photo',
+      'true': 'Refuser le signalement et conserver la photo',
+      'other': 'Refuser le signalement et re-publier la photo',
     });
     return '$_temp0';
   }
 
   @override
-  String get media_delete => 'Delete photo';
+  String get media_delete => 'Supprimer la photo';
 
   @override
-  String get mediaReport_submitted => 'Report submitted';
+  String get mediaReport_submitted => 'Signalement envoyé';
 
   @override
-  String get media_uploadedByUser => 'You uploaded this photo';
+  String get media_uploadedByUser => 'Vous avez partagé cette photo';
 
   @override
-  String get setting_livestream_tournamentUrl => 'Tournament Livestream URL';
+  String get setting_livestream_tournamentUrl =>
+      'Adresse de la rediffusion du tournoi';
 
   @override
   String get setting_livestream_tournamentUrlDescription =>
-      'The URL provided here will be linked on the tournament home area.';
+      'Cette adresse est disponible sur le résumé du tournoi.';
 
   @override
-  String get setting_livestream_gameUrls => 'Game Livestream URLS';
+  String get setting_livestream_gameUrls =>
+      'Adresses des rediffusions des parties';
 
   @override
   String get setting_livestream_gameUrlsDescription =>
-      'The URLs listed here are linked on the details page for each game. YouTube livestreams are displayed directly in the app and overlaid with live game data.';
+      'Ces adresses sont disponibles dans les résumés de chaque partie. Les rediffusions YouTube sont affichées directement dans l\'application, annotées des données de jeu.';
 
   @override
   String setting_livestream_linkedGames(num howMany) {
     String _temp0 = intl.Intl.pluralLogic(
       howMany,
       locale: localeName,
-      other: '$howMany games linked',
-      one: '1 game linked',
+      other: '$howMany parties diffusées',
+      one: '1 partie diffusée',
     );
     return '$_temp0';
   }
 
   @override
-  String get setting_livestream_link => 'Link';
+  String get setting_livestream_link => 'Lien';
 
   @override
-  String get setting_livestream_title => 'Link';
+  String get setting_livestream_title => 'Lien';
 
   @override
-  String get postingPage_viewAllMedia => 'View all';
+  String get postingPage_viewAllMedia => 'Tout voir';
 
   @override
-  String get setting_halftime => 'Halftime';
+  String get setting_halftime => 'Mi-temps';
 
   @override
   String organization(num howMany) {
     String _temp0 = intl.Intl.pluralLogic(
       howMany,
       locale: localeName,
-      other: 'Organizations',
-      one: 'Organization',
+      other: 'Organisations',
+      one: 'Organisation',
     );
     return '$_temp0';
   }
 
   @override
-  String get organizationSetup_addUser => 'Add user';
+  String get organizationSetup_addUser => 'Ajouter une personne';
 
   @override
   String setupOrganization_addUserMailTemplate(
@@ -4852,7 +4860,7 @@ class AppLocalizationsFr extends AppLocalizations {
   }
 
   @override
-  String get home_goToOrganization => 'Go to tournament overview';
+  String get home_goToOrganization => 'Voir le résumé du tournoi';
 
   @override
   String get media_assignments => 'Assignments';
