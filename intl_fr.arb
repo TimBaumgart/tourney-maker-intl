@@ -673,6 +673,7 @@
   "registrationSetup_applyRegistration": "Appliquer les données d'inscription",
   "registrationSetup_applyRegistration_close": "1. Fermer les inscriptions",
   "registrationSetup_applyRegistration_linkWithTeams": "2. Associer les inscriptions aux équipes",
+  "registrationSetup_deleteAllEntries": "Supprimer toutes les inscriptions",
   "registrationSetup_stats": "{howMany, plural, one{*{howMany}* inscription soumise.} other{*{howMany}* inscriptions soumises.}}",
   "registrationSetup_instruction": "Dès que vous avez récolté suffisamment d'inscriptions, vous pouvez suivre les étapes suivantes.",
   "registrationAssignment_title": "Affectation des inscriptions",
@@ -710,6 +711,8 @@
   "bracketGames_deleteGames": "Supprimer des {games}",
   "bracketGames_round": "Tour {value}",
   "brackets_editStandingsSwitch": "Modifier les classements et le résultat du groupe",
+  "brackets_forcePlaceFollowers": "Préparer la suite à l'avance",
+  "brackets_forcePlaceFollowers_description": "La suite de la compétition est déterminée selon les résultats actuels des groupes, même si des parties sont en cours.",
   "game_saveScoreAndFinishGame": "Enregistrer et terminer la partie",
   "brackets_confirmationRequired_title": "Confirmation requise",
   "brackets_confirmationRequired_description": "{team, select, null{Impossible de trouver une combinaison valide, l'affectation des équipes a échoué. Voulez-vous positionner l'équipe {unconfirmedTeam} ?} other{L'équipe {team} est déjà positionnée. Voulez-vous la remplacer par l'équipe {unconfirmedTeam} ?}}",
@@ -1037,6 +1040,7 @@
   "game_status_scheduledStartPassed": "Partie prévue il y a {durationAgo}",
   "game_status_running": "Partie en cours",
   "game_status_finished": "Partie terminée",
+  "game_scoring_deleteMediaEvent": "Supprimer l'élément",
   "media": "{howMany, plural, one{Média} other{Médias}}",
   "game_scoring_serve": "Servir",
   "mediaUpload_uploadProgress": "{totalFiles, plural, one{{filesTransferred}/{totalFiles} fichier transféré} other{{filesTransferred}/{totalFiles} fichiers transférés}}",
@@ -1100,5 +1104,7 @@
   "organization": "{howMany, plural, one{Organisation} other{Organisations}}",
   "organizationSetup_addUser": "Ajouter une personne",
   "setupOrganization_addUserMailTemplate": "## Welcome to {appTitle}!\n\nHello,\n\nYou have been added to the organization **{organization}**. Click the following link to log in to your account:\n\n%magicLink%\n\n---\n\n*If you did not expect this email, you can safely ignore it. This link will expire for security reasons.*",
-  "home_goToOrganization": "Voir le résumé du tournoi"
+  "home_goToOrganization": "Voir le résumé du tournoi",
+  "media_assignments": "Associations",
+  "media_editAssignments": "Modifier les associations"
 }
